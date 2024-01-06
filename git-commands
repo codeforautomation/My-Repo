@@ -60,4 +60,5 @@ Certainly! Here's a list of essential Git commands along with brief explanations
 20. git remote show [remote]:
     - Displays information about a remote repository, including branches and remote-tracking branches.
 
-These commands cover fundamental Git operations for initializing a repository, making changes, navigating branches, collaborating with remotes, and examining project history. For more details on any specific command, you can use git help [command] or refer to the Git documentation.
+These commands cover fundamental Git operations for initializing a repository, making changes, navigating branches, collaborating with remotes, and examining project history. 
+For more details on any specific command, you can use git help [command] or refer to the Git documentation.
