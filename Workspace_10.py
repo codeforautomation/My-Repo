@@ -14,7 +14,7 @@ R[8]=list(str(input("enter row9 ")))
 
 r1=0;
 
-while(r1<=3): #Represent how many times this code run
+while(r1<=8): #Represent how many times this code run
 
     #COLUMN DATASET
     C=[0,1,2,3,4,5,6,7,8]
@@ -289,8 +289,8 @@ while(r1<=3): #Represent how many times this code run
     I[7]=[HASH_B[6][3],HASH_B[6][4],HASH_B[6][5],HASH_B[7][3],HASH_B[7][4],HASH_B[7][5],HASH_B[8][3],HASH_B[8][4],HASH_B[8][5]]
     I[8]=[HASH_B[6][6],HASH_B[6][7],HASH_B[6][8],HASH_B[7][6],HASH_B[7][7],HASH_B[7][8],HASH_B[8][6],HASH_B[8][7],HASH_B[8][8]]
 
-    print("print I",I)
-    print("print R",R)
+    #print("print I",I)
+    #print("print R",R)
 #------------------------------------------------------------------------------------------------------------------
     n=0
 
@@ -311,7 +311,7 @@ while(r1<=3): #Represent how many times this code run
             m=m+1
         n=n+1
 
-    print("print R",R)
+    #print("print R",R)
 
     r1=r1+1
 
