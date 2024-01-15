@@ -29,6 +29,9 @@ while(r1<=8): #Represent how many times this code run
     C[7]=[R[0][7],R[1][7],R[2][7],R[3][7],R[4][7],R[5][7],R[6][7],R[7][7],R[8][7]]
     C[8]=[R[0][8],R[1][8],R[2][8],R[3][8],R[4][8],R[5][8],R[6][8],R[7][8],R[8][8]]
 
+    print("C")
+    print(C)
+
     #BLOCK DATASET
     B=[0,1,2,3,4,5,6,7,8]
 
@@ -41,6 +44,9 @@ while(r1<=8): #Represent how many times this code run
     B[6]=[R[6][0],R[6][1],R[6][2],R[7][0],R[7][1],R[7][2],R[8][0],R[8][1],R[8][2]]
     B[7]=[R[6][3],R[6][4],R[6][5],R[7][3],R[7][4],R[7][5],R[8][3],R[8][4],R[8][5]]
     B[8]=[R[6][6],R[6][7],R[6][8],R[7][6],R[7][7],R[7][8],R[8][6],R[8][7],R[8][8]]
+
+    print("B")
+    print(B)
 
 
     #Processing ROW DATASET
@@ -289,7 +295,7 @@ while(r1<=8): #Represent how many times this code run
     I[7]=[HASH_B[6][3],HASH_B[6][4],HASH_B[6][5],HASH_B[7][3],HASH_B[7][4],HASH_B[7][5],HASH_B[8][3],HASH_B[8][4],HASH_B[8][5]]
     I[8]=[HASH_B[6][6],HASH_B[6][7],HASH_B[6][8],HASH_B[7][6],HASH_B[7][7],HASH_B[7][8],HASH_B[8][6],HASH_B[8][7],HASH_B[8][8]]
 
-    #print("print I",I)
+    print("print I",I)
     #print("print R",R)
 #------------------------------------------------------------------------------------------------------------------
     n=0
@@ -311,7 +317,8 @@ while(r1<=8): #Represent how many times this code run
             m=m+1
         n=n+1
 
-    #print("print R",R)
+    print("r1 ",r1)
+    print("print R",R)
 
     r1=r1+1
 
