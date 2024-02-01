@@ -1,1 +1,1 @@
-This repo contain unfinished or under developing codes
+This repo contains unfinished or developing stage codes for my self
